@@ -1,0 +1,264 @@
+*{
+    padding: 0px;
+    margin:0px ;
+}
+body{
+    padding: 0px;
+    margin:0px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+width: 100%;
+height:auto;
+min-height: 820px;
+overflow:  hidden ;
+background-color: red;
+
+
+}
+.container{
+    width: 1260px;
+	padding:0px;
+	margin:0px auto;
+
+    height: 50px;
+    
+}
+.topbar{
+    width: 100%;
+    height: 50px;
+    
+    
+}
+.logo{
+    width: 20%;
+    height: 50px;
+    
+    float: left;
+}
+.logo h1{
+    padding: 3px 10px 10px 10px;
+    color: blanchedalmond;
+}
+
+.menu{
+    width: 80%;
+    height: 50px;
+  
+    float: right;
+   }
+   .menu ul{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    width: 60%;
+    padding: 10px;
+    font-size: 20px;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    margin: 0px;
+}
+.menu ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+.menu ul li a:hover{
+    background: black;
+    padding: 10px;
+    
+    box-shadow:10px 10px 10px #000;
+    
+}
+.box1{
+    margin: 150px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    /* background-color: ; */
+    width: 40%;
+    height: 280px;
+    float: left;
+    
+}
+.contant{
+    width: 70%;
+    height: 180px;
+
+
+}
+.contant h2{
+    padding: 70px 10px 10px 10px;
+    font-size: xx-large;
+    color: white;
+}
+.contant span{
+    color: yellowgreen;
+}
+.btn{
+    width: 70%;
+    height: 100px;
+    /* background-color:; */
+}
+.btn button{
+    margin: 0px 0px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+.but{
+    padding: 20px;
+    background:white;
+    color: black;
+    font-size:17px;
+    cursor: pointer;
+    font-style: italic;
+}
+.but:hover{
+    padding: 20px;
+    background: red;
+    color: #fff;
+    font-size:17px;
+    cursor: pointer;
+    box-shadow:10px 10px 10px #000;
+} 
+
+
+
+
+.box2{
+    margin: 100px 120px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    
+    width: 35%;
+    height: 450px;
+    float: right;
+}
+.box2 img{
+    width: 100%;
+    height: 450px;
+    background-position: cover;
+
+    
+}
+@media  (min-width:0px) and (max-width:768px){
+
+    .body{
+        display: block;
+        background-color: black;
+    }
+}
+@media  (min-width:0px) and (max-width:768px){
+
+    .container{
+        display: block;
+        width: 100%;
+        background-color: black;
+    }
+}
+
+
+@media  (min-width:0px) and (max-width:768px){
+
+    .main{
+        
+        background-color: black;
+        width: 100%;
+        height: auto;
+        min-height: 1000px ;
+    }
+}
+
+
+@media  (min-width:0px) and (max-width:768px){
+
+.menu{
+        display: block;
+        /* background-color:; */
+        width:100% ;
+        float: left;
+    }
+.menu ul{
+     float: left;
+     
+     width: 10%;
+     padding: 2px;
+ }
+/* .menu ul li{
+     float:;
+ } */
+/* .menu ul li a{
+        text-decoration: ;
+    } */
+}
+@media  (min-height:0px) and (max-height:768px){
+
+    .menu{
+        display: block;
+        /* background-color: ;
+        width: ; */
+        float: right;
+    }
+}
+@media  (min-width:0px) and (max-width:768px){
+    .box1{
+      width: 10%;
+      /* height: ;
+      background-color: ; */
+     float: left;
+
+    }
+    .contant{
+        width: 80%;
+        height: 150px;
+    
+        /* background: ; */
+    
+    }
+    .contant h2{
+        padding: 25px 10px 10px 10px;
+        font-size: 20px;
+        color: white;
+    }
+    .contant span{
+        color: yellowgreen;
+    }
+    .btn{
+        width: 80%;
+        height: 70px;
+        /* background-color:; */
+    }
+    .btn button{
+        margin: 10px 0px 4px 4px;
+        border-radius: 10px 10px 10px 10px;
+        
+    }
+    .but{
+        padding: 13px;
+        background:white;
+        color: black;
+        font-size:14px;
+        cursor: pointer;
+        font-style: italic;
+    }
+    .but:hover{
+        padding: 13px;
+        background: red;
+        color: #fff;
+        font-size:14px;
+        cursor: pointer;
+        box-shadow:1px 1px 1px #000;
+    } 
+
+    .box2{
+        margin: 100px 10px 10px 60px;
+        width: 10%;
+        height: auto;
+        /* background-color: ; */
+        float: left;
+
+        /* box-sizing: ; */
+        padding: 10px 10px 10px 10px;
+      }
+      
+}

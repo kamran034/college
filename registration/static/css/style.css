@@ -1,0 +1,217 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    width: 100%;
+    min-height: 50px ;
+    height: 657px;
+    /* background-color: ; */
+    background:linear-gradient(130deg ,#16a085 50%, #2c3e50 50%);
+    
+}
+.container{
+    width:980px;
+	padding:0px;
+	margin:0px auto;
+	/* background-color:; */
+    height: 50px;
+}
+.topbar{
+    width: 100%;
+    height: auto;
+}
+.logo{
+    width: 20%;
+    height: 50px;
+    /* background-color:; */
+
+    float: left;
+}
+.logo h1{
+    text-align: center;
+    /* text-overflow: ; */
+    color: white;
+    padding: 10px;
+}
+.menu{
+    width: 50%;
+    height: 50px;
+    /* background:; */
+    float: right;
+    float: left;
+    
+   }
+.menu ul{
+    /* float: ; */
+    margin: 0px;
+    padding: 0px;
+    /* width: ; */
+    padding: 20px 10px 10px 100px;
+    font-size: 15px;
+    font-size: 20px;
+    
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    margin: 0px;
+    
+}
+.menu ul li a{
+ color: white;
+ text-decoration: none;
+ padding: 10px;
+ 
+}
+.menu ul li a:hover{
+    background: yellow;
+    padding: 10px;
+    border-radius:30px 30px 30px 30px;
+    box-shadow:10px 10px 10px #000;
+    
+}
+
+.iconbar{
+    width: 30%;
+    height: 50px;
+    /* background: ; */
+    float: right; 
+}
+.iconbar ul{
+    /* float: ; */
+    margin: 0px;
+    padding: 0px;
+    /* width: ; */
+    padding: 20px 10px 10px 100px;
+
+    
+}
+.iconbar ul li{
+    list-style: none;
+    float: left;
+    margin: 0px;
+    padding: 4px;
+    
+    
+}
+.iconbar ul li i{
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    font-size: x-large;
+   }
+.banner{
+    width: 40%;
+    height: 190px;
+    float: left;
+    /* background-color:; */
+    padding: 10px 10px 10px 10px;
+    margin: 150px 10px 10px 50px;
+}  
+.header{
+    width: 40%;
+    height: 80px;
+    /* background-color: ; */
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 30px;
+    
+} 
+.header h1{
+    /* font-size: ; */
+    padding: 10px 10px 0px px;
+    margin: 0px 0px 0px 10px;
+    font-family: 'Times New Roman', Times, serif;
+   color: white;
+
+}
+.header span{
+    color: yellow
+}
+.btn{
+    width: 30%;
+    height: 80px;
+    /* background-color: ; */
+    margin: 0px 0px 0px 10px;
+}
+.btn button{
+    margin: 0px 10px 10px 40px;
+    padding: 3px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+    font-size: medium;
+    padding: 10px 10px 10px 10px;
+
+}
+.btn button:hover{
+    padding: 10px;
+    /* background:; */
+    color: black;
+    font-size:14px;
+    box-shadow:10px 10px 10px #000;
+}
+.img1{
+width: 46%;
+height: 340px;
+float: right;
+/* background-color:; */
+margin: 150px 10px 100px 0px;
+
+}
+.img1 img{
+    background-position: cover;
+    height: 347px;
+    width: 100%;
+    border-radius: 20px 10px 10px 20px;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 32%;
+    right: 5%;
+}
+.socialmedia a{
+text-decoration: none;
+padding: 10px;
+color: #fff; 
+margin: 8px;
+display: flex;
+text-justify: center;
+align-items: center;
+/* transition: ; */
+/* background: ; */
+
+
+}
+.socialmedia a i{
+    font-size: 25px;
+
+}
+.socialmedia .fb-icon{
+    background: blue;
+}
+.socialmedia .twitter-icon{
+background:rgb(149, 149, 240) ;
+}
+.socialmedia .youtube-icon{
+background: red;
+}
+.socialmedia .whatsapp-icon{
+background: green;
+}
+.socialmedia .linkedin-icon{
+    background: blue;
+}
+
+.socialmedia a:hover{
+    background: orange;
+}
+
